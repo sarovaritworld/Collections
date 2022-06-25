@@ -1,11 +1,12 @@
 package org.example.collection.list;
 
-import java.util.*;
+import java.util.Iterator;
+import java.util.List;
 
-public class LinkedList {
+public class ArrayList {
     public static void main(String[] args) {
 
-        List<String> list = new ArrayList<>();
+        List<String> list = new java.util.ArrayList<>();
 
         list.add("India");
         list.add("Norway");
@@ -13,6 +14,7 @@ public class LinkedList {
         list.add("Sweden");
         list.add("NY");
         list.add(null); // null allowed
+
 
         //print entire list
         System.out.println(list);//Insertion order maintained
